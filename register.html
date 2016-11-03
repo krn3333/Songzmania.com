@@ -1,0 +1,117 @@
+
+
+
+<html>
+<head>
+<body background="gui.jpg" text="red">
+
+<script type="text/javascript">
+<!--
+function validate_form()
+{
+valid=true;
+if(document.rf.firstname.value=="")
+{
+alert("please enter firstname");
+valid=false;
+}
+if(document.rf.lastname.value=="")
+{
+alert("please enter lastname");
+valid=false;
+}
+if(document.rf.username.value=="")
+{
+alert("please enter username");
+valid=false;
+}
+if(document.rf.email.value=="")
+{
+alert("please enter your email id");
+valid=false;
+}
+if(document.rf.pwd.value=="")
+{
+alert("please enter your password");
+valid=false;
+}
+if(document.rf.cpwd.value=="")
+{
+alert("please enter password again");
+valid=false;
+}
+if((document.rf.gender[0].checked==false)
+&&(docement.rf.gender[1].checked==false))
+{
+  alert("please choose your gender");
+  valid=false;
+}
+return valid;
+}
+//-->
+</script>
+</head>
+
+
+
+
+
+
+
+<body background="gui.jpg" text="red">
+
+<table  align="center">
+<tr>
+    
+    <th><image src="logo.jpg"  height="100" width="100"></img></th>
+     <th><center><h1><font size="6" face="magneto"> SONGSMANIA </font></h1></center></th>
+    </tr>
+<tr>
+<td></td>
+<td ></td></tr></table>
+<marquee><center><h2> <a href="main.html"style="text-decoration:none;color:red"> Home |</a><a href="hindi songs.html"style="text-decoration:none;color:red"> Hindi Songs |</a><a href="englishsongs.html"style="text-decoration:none;color:red"> English Songs |</a><a href="top10.html"style="text-decoration:none;color:red"> Top 10 |</a><a href="comingsoon.html"style="text-decoration:none;color:red"> Coming Soon |</a><a href="register.html"style="text-decoration:none;color:red"> Register </a> </h2></center></marquee>
+
+
+<table  align="right">
+
+<tr>
+  <th></th>
+  <th></th>
+</tr>
+<tr>
+   <td><b><a href="login.html" style=";color:red">LOGIN |</a></b></td>
+   <td><b><a href="register.html"style="color:red">REGISTER</b></td>
+</tr>
+</table>
+
+<hr color="green" align="center" size="2pixel" width="1350pixel"/>
+
+
+
+
+
+
+
+<p><center><font size="6" color="green"><b>  REGISTRATION FORM </b></font></center>
+<form name="rf" action="registeredsucessfully.html" method="post" onsubmit="return validate_form();" onsubmit="return validate_emailform();" >
+<font size="5" color="green"><b>First name:<input type="text" name="firstname" value=""/><br/><br/></b></font>
+<font size="5" color="green"><b>Last name:<input type="text" name="lastname" value=""/><br/><br/></b></font>
+<font size="5"color="green"><b>User name:<input type="text" name="username" value=""/><br/><br/></b></font>
+<font size="5"color="green"><b>Gender<br><input type="radio" name="gender" value="male"/>Male<br/></b></font>
+<font size="5"color="green"><b><input type="radio" name="gender" value="Female"/>Female<br/></b></font><br/><br/>
+<font size="5"color="green"><b>E-mail id:<input type="text" name="email" value=""/><br/><br/></b></font>
+<font size="5"color="green"><b>Password :<input type="password" name="pwd" value=""/><br/><br/></b></font>
+<font size="5"color="green"><b>Confirm Password :<input type="password" name="cpwd" value=""/><br/><br/> 
+<font size="5"color="green"><b>Terms & conditions:</b></font>
+<p><textarea rows="5" cols="30" name="address"> Your access to, and use of, this website and any transactions made on this website will be governed by these Terms and Conditions. By using this website, you represent that you have read, understood and have accepted these Terms and Conditions and agree to be bound by them.</textarea></p>
+<font size="5"><b><input type="checkbox" name="cb" value=""/>I accept the above terms and conditions<br/><br/></b></font>
+<font size="5"><b><input type="submit" name="abc" value="submit"  /></a></b></font>
+
+
+
+</form><br/><br/>
+
+<center><h3><font size="5" color="green"><a href="contact.html" style="color:green;text-decoration:none">  Contact |</a><a href="about.html"style="color:green;text-decoration:none"> About | </a><a href="privacy.html"style="color:green;text-decoration:none" >Privacy Policy |</a><a href="terms.html"style="color:green;text-decoration:none"> Terms & Conditions </a> </font></h3></center><br/><br/>
+</body>
+</html>
+
